@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+    display: flex;
+    font-family: 'Pretendard-Regular';
+    height: 10vh;
+    justify-content: center;
+    font-size: 6vh;
+    margin-top: 15vh;
+    color: white;
+}
+
+.photobox{
+    display: flex;
+    height: 50vh;
+    width: calc(50vh * 640 / 844);
+    outline: 1px solid black;
+    margin-left: 50%;
+    transform: translate(calc(-25vh * 640 / 844), 0);
+    background-image: url("https://image.musinsa.com/mfile_s01/_shopstaff/view.staff_6317e5da138a3.jpg?20220907093932");
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.choicebox{
+    display: flex;
+    height: 10vh;
+    width: calc(50vh * 640 / 844);
+    margin-left: 50%;
+    transform: translate(calc(-25vh * 640 / 844), 0);
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.choice_btn{
+    width: 49%;
+    height: 10vh;
+}
+
+.emozy{
+    position: absolute;
+    left: 50%;
+    transform: translate(-5vh, 0);
+    top: 40vh;
+    z-index: 1;
+    font-size: 10vh;
+    visibility: hidden;
+}
