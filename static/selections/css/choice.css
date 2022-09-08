@@ -56,3 +56,12 @@ body{
     font-size: 10vh;
     visibility: hidden;
 }
+
+.direction{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    height: 10vh;
+    font-size: 5vh;
+    color: white;
+}

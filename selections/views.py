@@ -26,4 +26,10 @@ def mobile(request):
         
     }
     return HttpResponse(template.render(context, request))
-    
+
+def done(request):
+    template = loader.get_template('selections/done.html')
+    context = {
+        
+    }
+    return HttpResponse(template.render(context, request))
