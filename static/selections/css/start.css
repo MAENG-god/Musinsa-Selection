@@ -12,8 +12,8 @@ body{
 .title{
     display: flex;
     font-family: 'Pretendard-Regular';
-    margin-top: 10vh;
     padding-left: 2vw;
+    margin-top: 10vh;
     height: 45vh;
     font-size: 10vh;
     color: white;
